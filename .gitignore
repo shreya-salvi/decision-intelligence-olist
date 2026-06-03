@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+olist_dbt/target/
+olist_dbt/logs/
+olist_dbt/olist.duckdb
+raw/
+*.pbix

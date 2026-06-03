@@ -1,0 +1,29 @@
+[
+  {
+    "week": "2018-03-05",
+    "seller_id": "ffc47076...",
+    "on_time_rate": 0.0,
+    "prior_rate": 100.0,
+    "rate_change": -100.0,
+    "avg_review_score": 3.0,
+    "signal": "The seller's on-time delivery rate collapsed from 100% last week to 0% this week, representing a catastrophic 100 percentage point decline that demands immediate investigation. This dramatic failure is most likely caused by a shipping or logistics disruption such as a carrier delay, warehouse system error, or unexpected supply chain bottleneck rather than a gradual operational deterioration. The operations team should immediately contact their shipping carrier to identify any service interruptions or delays affecting orders from this week and establish expedited shipping for any pending orders to prevent further damage to customer satisfaction."
+  },
+  {
+    "week": "2017-11-20",
+    "seller_id": "fbc14c0c...",
+    "on_time_rate": 0.0,
+    "prior_rate": 100.0,
+    "rate_change": -100.0,
+    "avg_review_score": null,
+    "signal": "The seller's on-time delivery rate dropped dramatically from 100% last week to 0% this week, representing a decline of 100 percentage points. This complete failure to meet delivery deadlines this week most likely stems from a logistics or fulfillment disruption such as carrier delays, inventory stockouts, or operational shutdowns rather than a systemic process issue, given the stark contrast with perfect performance the prior week. The operations team should immediately contact their shipping carrier and review all orders from this week to identify whether a single logistics provider failure or warehouse incident affected all shipments, then prioritize expedited resolution and customer communication."
+  },
+  {
+    "week": "2018-01-29",
+    "seller_id": "fb89df7f...",
+    "on_time_rate": 0.0,
+    "prior_rate": 100.0,
+    "rate_change": -100.0,
+    "avg_review_score": 2.0,
+    "signal": "The seller's on-time delivery rate collapsed from 100.0% last week to 0.0% this week, representing a catastrophic 100 percentage point decline that directly correlates with the plummeting average review score of 2.0. This dramatic shift suggests a severe logistics or fulfillment disruption such as a carrier failure, warehouse outage, or system error that prevented all orders from shipping on schedule this week. The operations team should immediately contact their shipping carrier to identify any service disruptions and conduct an urgent audit of all orders placed this week to determine root cause and manually expedite shipments where possible to prevent further customer dissatisfaction."
+  }
+]

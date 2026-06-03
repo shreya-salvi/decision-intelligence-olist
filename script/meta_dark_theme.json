@@ -1,0 +1,25 @@
+{
+  "name": "Meta Dark",
+  "dataColors": [
+    "#2D88FF",
+    "#42B72A",
+    "#E41E3F",
+    "#FDD663",
+    "#B0B3B8",
+    "#00C8FF",
+    "#FF6B35",
+    "#A855F7"
+  ],
+  "background": "#1C1E21",
+  "foreground": "#E4E6EB",
+  "tableAccent": "#2D88FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{"color": {"solid": {"color": "#242526"}}}],
+        "fontColor": [{"color": {"solid": {"color": "#E4E6EB"}}}],
+        "labelColor": [{"color": {"solid": {"color": "#B0B3B8"}}}]
+      }
+    }
+  }
+}

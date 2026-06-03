@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: olist
+    meta:
+      owner: shrey
+    tables:
+      - name: orders
+        external:
+          location: "C:/Users/shrey/Desktop/projects/The Decision Intelligence/raw/olist_orders_dataset.csv"
+          options:
+            format: csv
+            header: true
+      - name: order_items
+        external:
+          location: "C:/Users/shrey/Desktop/projects/The Decision Intelligence/raw/olist_order_items_dataset.csv"
+          options:
+            format: csv
+            header: true
+      - name: order_reviews
+        external:
+          location: "C:/Users/shrey/Desktop/projects/The Decision Intelligence/raw/olist_order_reviews_dataset.csv"
+          options:
+            format: csv
+            header: true
+      - name: sellers
+        external:
+          location: "C:/Users/shrey/Desktop/projects/The Decision Intelligence/raw/olist_sellers_dataset.csv"
+          options:
+            format: csv
+            header: true
+      - name: customers
+        external:
+          location: "C:/Users/shrey/Desktop/projects/The Decision Intelligence/raw/olist_customers_dataset.csv"
+          options:
+            format: csv
+            header: true
