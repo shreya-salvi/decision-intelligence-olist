@@ -92,9 +92,8 @@ DB_PATH = r"C:\Users\shrey\Desktop\projects\The Decision Intelligence\olist_dbt\
 
 @st.cache_data
 def load_data():
-    con = duckdb.connect(DB_PATH, read_only=True)
-    df = con.execute("SELECT * FROM seller_performance_weekly").df()
-    con.close()
+    csv_path = os.path.join(os.path.dirname(__file__), "seller_performance_weekly.csv")
+    df = pd.read_csv(csv_path)
     df["week"] = pd.to_datetime(df["week"])
     df["prev_on_time_rate"] = df.groupby("seller_id")["on_time_rate"].shift(1)
     df["rate_change"] = df["on_time_rate"] - df["prev_on_time_rate"]
